@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import './App.css';
-import Dashboard from './components/Dashboard.jsx'
+import Dashboard from './components/Dashboard.jsx';
 import UnsafeScriptsWarning from "./components/UnsafeScriptsWarning";
+
 
 class App extends Component {
 
@@ -30,9 +31,13 @@ class App extends Component {
       return <UnsafeScriptsWarning />;
     }
     return (
+   
       <div className="App">
-        <Dashboard hideSpinner={this.hideSpinner} showSpinner={this.state.showSpinner} />
+      <Dashboard hideSpinner={this.hideSpinner} showSpinner={this.state.showSpinner} />
+    
+       
       </div>
+   
     );
   }
 }

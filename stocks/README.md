@@ -15,4 +15,5 @@ Features:
   - Can zoom/pan over graph, Reset the zoom
   - Clear history of all stocks with the click of a button
   - Handles connection errors
+
   
